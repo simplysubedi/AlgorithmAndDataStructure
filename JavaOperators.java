@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 public class JavaOperators {
     public static void main(String args[]){
         int num = 5;
@@ -34,7 +37,14 @@ public class JavaOperators {
         //Java Ternary Operators
         int num5 = 51;
         int num6 = 6;
-        int min=(num5<num6)?num5:num6;
+        int min = ( num5 < num6) ? num5 : num6;
         System.out.println(min);
+
+
+        //Taking Input form the console
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the umber");
+        int num7 = sc.nextInt();
+        System.out.println(num7);
     }
 }
